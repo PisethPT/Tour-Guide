@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tour_Guide</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <LangVersion>preview</LangVersion>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\arrowdown.png" />
+    <None Remove="Images\background.jpg" />
+    <None Remove="Images\back_button.png" />
+    <None Remove="Images\CityImages\angkor_1.jpg" />
+    <None Remove="Images\CityImages\angkor_2.jpg" />
+    <None Remove="Images\CityImages\angkor_3.jpg" />
+    <None Remove="Images\CityImages\angkor_4.jpg" />
+    <None Remove="Images\CityImages\angkor_5.jpg" />
+    <None Remove="Images\CityImages\Angkor_Wat.jpg" />
+    <None Remove="Images\CityImages\Bangkok.jpg" />
+    <None Remove="Images\CityImages\barcelona-Barri Gòtic %28Gothic Quarter%29.jpg" />
+    <None Remove="Images\CityImages\barcelona-La Sagrada Família %28Church of the Sacred Family%29.jpg" />
+    <None Remove="Images\CityImages\Rome-Colosseum %28Colosseo%29.jpg" />
+    <None Remove="Images\CityImages\Rome-Vatican.jpg" />
+    <None Remove="Images\CityImages\rome.jpg" />
+    <None Remove="Images\CityImages\sg.jpeg" />
+    <None Remove="Images\CityImages\singapore-city.jpg" />
+    <None Remove="Images\CityImages\singapore-Kuala Lumpur.jpg" />
+    <None Remove="Images\CityImages\sp.jpg" />
+    <None Remove="Images\CityImages\thai-bangkok.jpg" />
+    <None Remove="Images\CityImages\thai-chiang-mai.jpg" />
+    <None Remove="Images\CityImages\thai-phuket.jpg" />
+    <None Remove="Images\currency.png" />
+    <None Remove="Images\location_logo.png" />
+    <None Remove="Images\option_button.png" />
+    <None Remove="Images\profile.jpg" />
+    <None Remove="Images\search_button.png" />
+    <None Remove="Images\temple.png" />
+    <None Remove="Images\time_zone.png" />
+    <None Remove="Images\user.png" />
+    <None Remove="Images\weather.png" />
+    <None Remove="Videos\angkor_wat_1.wmv" />
+    <None Remove="Videos\angkor_wat_2.wmv" />
+    <None Remove="Videos\angkor_wat_3.wmv" />
+    <None Remove="Videos\barcelona_1.wmv" />
+    <None Remove="Videos\barcelona_2.wmv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\arrowdown.png" />
+    <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\back_button.png" />
+    <Resource Include="Images\CityImages\angkor_1.jpg" />
+    <Resource Include="Images\CityImages\angkor_2.jpg" />
+    <Resource Include="Images\CityImages\angkor_3.jpg" />
+    <Resource Include="Images\CityImages\angkor_4.jpg" />
+    <Resource Include="Images\CityImages\angkor_5.jpg" />
+    <Resource Include="Images\CityImages\Angkor_Wat.jpg" />
+    <Resource Include="Images\CityImages\Bangkok.jpg" />
+    <Resource Include="Images\CityImages\barcelona-Barri Gòtic (Gothic Quarter).jpg" />
+    <Resource Include="Images\CityImages\barcelona-La Sagrada Família (Church of the Sacred Family).jpg" />
+    <Resource Include="Images\CityImages\Rome-Colosseum (Colosseo).jpg" />
+    <Resource Include="Images\CityImages\Rome-Vatican.jpg" />
+    <Resource Include="Images\CityImages\rome.jpg" />
+    <Resource Include="Images\CityImages\sg.jpeg" />
+    <Resource Include="Images\CityImages\singapore-city.jpg" />
+    <Resource Include="Images\CityImages\singapore-Kuala Lumpur.jpg" />
+    <Resource Include="Images\CityImages\sp.jpg" />
+    <Resource Include="Images\CityImages\thai-bangkok.jpg" />
+    <Resource Include="Images\CityImages\thai-chiang-mai.jpg" />
+    <Resource Include="Images\CityImages\thai-phuket.jpg" />
+    <Resource Include="Images\currency.png" />
+    <Resource Include="Images\location_logo.png" />
+    <Resource Include="Images\option_button.png" />
+    <Resource Include="Images\profile.jpg" />
+    <Resource Include="Images\search_button.png" />
+    <Resource Include="Images\temple.png" />
+    <Resource Include="Images\time_zone.png" />
+    <Resource Include="Images\user.png" />
+    <Resource Include="Images\weather.png" />
+    <Resource Include="Videos\angkor_wat_1.wmv" />
+    <Resource Include="Videos\angkor_wat_2.wmv" />
+    <Resource Include="Videos\angkor_wat_3.wmv" />
+    <Resource Include="Videos\barcelona_1.wmv" />
+    <Resource Include="Videos\barcelona_2.wmv" />
+    <Resource Include="Videos\barcelona_3.wmv" />
+  </ItemGroup>
+
+</Project>
